@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100%;
+}
+
+/* Universal background color and font */
+body {
+  background-color:#3C3431;
+  font-family: 'Montserrat';
+  margin-bottom: 60px;
+}
+
+/* page footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #3C3431;
+}
+
+/* Helper styles */
+
+.vertically-centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* General styles */
+
+.basic-btn, .basic-btn:hover {
+  background-color: #A39D92;
+  color: black;
+  text-decoration: none;
+  border: none;
+}
+
+.basic-btn:active {
+  background-color: #F2F1F0;
+}
+
+.page-main-btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px;
+  margin: 5px 5px;
+}
+
+.major-btn {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.midground {
+  background-color: #C0C9CC;
+}
+
+.basic-caption {
+  padding: 5px 0;
+}
+
+.std-text-input {
+  max-width: 500px;
+}
+
+.basic-textbox, .basic-textbox:active {
+  border: none;
+  background-color: #F2F1F0;
+}
+
+.img-w100 {
+  width: 100%;
+}
+
+.basic-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.invalid-input {
+  border: 2px solid red;
+}
+
+.basic-help-block {
+  display: inline-block;
+  background-color: #C0C9CC;
+  width: 100%;
+  color: black;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.basic-modal {
+  background-color: #F2F1F0;
+}
+
+/* Main carousel */
+
+#main-carousel-controls {
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.cs-ctrl-btn {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.cs-goto-btn-current {
+  background-color: #F2F1F0;
+}
+
+/* Random lyric */
+
+#random-lyric-heading {
+  padding: 15px 0;
+}
+
+#random-lyric {
+  font-style: italic;
+  color: black;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+#lyric-caption {
+  padding-bottom: 10px;
+}
+
+#random-lyric-btn {
+  padding: 10px;
+}
+
+/* Music page */
+
+a.album-card-link:hover {
+  text-decoration: none;
+}
+
+/* Forum */
+
+.forum-item {
+  background-color: #3C3431;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-top: 2px solid #F2F1F0;
+}
+
+.forum-item a, .forum-item a:hover {
+  font-weight: bold;
+  text-decoration: none
+}
+
+#forum-error-box {
+  padding: 3px;
+  border: 1px solid red;
+}
+
+#close-error-box {
+  padding: 0px;
+  padding-right: 3px;
+  text-decoration: underline;
+  background: none;
+  float: right;
+}
+
+/* Pagination links */
+
+.pagination-sm .page-item .page-link {
+  margin: 0 5px;
+  border: none;
+  background-color: #A39D92;
+  color: black;
+}
+
+.pagination-sm .page-item.active .page-link {
+  border: none;
+  background-color: #F2F1F0;
+  color: black;
+}
+
+.pagination-sm .page-item.disabled .page-link {
+  background-color: #A39D92;
+  color: #3C3431;
+}
+
+.pagination-sm .page-item:first-child .page-link {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.pagination-sm .page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
